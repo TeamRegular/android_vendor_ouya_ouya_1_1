@@ -30,8 +30,8 @@ PRODUCT_COPY_FILES += \
     vendor/ouya/ouya_1_1/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/ouya/ouya_1_1/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/ouya/ouya_1_1/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
-    vendor/ouya/ouya_1_1/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
-    vendor/ouya/ouya_1_1/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
+    vendor/ouya/ouya_1_1/proprietary/lib/hw/audio_policy.vendor.tegra.so:system/lib/hw/audio_policy.vendor.tegra.so \
+    vendor/ouya/ouya_1_1/proprietary/lib/hw/audio.primary_vendor.tegra.so:system/lib/hw/audio.primary_vendor.tegra.so \
     vendor/ouya/ouya_1_1/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/ouya/ouya_1_1/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
     vendor/ouya/ouya_1_1/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
