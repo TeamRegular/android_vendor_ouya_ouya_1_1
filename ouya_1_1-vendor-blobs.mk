@@ -21,14 +21,15 @@ PRODUCT_COPY_FILES += \
     vendor/ouya/ouya_1_1/proprietary/bin/unimac:system/bin/unimac \
     vendor/ouya/ouya_1_1/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
     vendor/ouya/ouya_1_1/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
-    vendor/ouya/ouya_1_1/proprietary/etc/firmware/nvavp_os_00001000.bin:system/etc/firmware/nvavp_os_00001000.bin \
     vendor/ouya/ouya_1_1/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
-    vendor/ouya/ouya_1_1/proprietary/etc/firmware/nvavp_os_e0000000.bin:system/etc/firmware/nvavp_os_e0000000.bin \
     vendor/ouya/ouya_1_1/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
     vendor/ouya/ouya_1_1/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
     vendor/ouya/ouya_1_1/proprietary/etc/nvram_4330.txt:system/etc/nvram_4330.txt \
+    vendor/ouya/ouya_1_1/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
     vendor/ouya/ouya_1_1/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
+    vendor/ouya/ouya_1_1/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:system/lib/egl/libGLESv1_CM_tegra_impl.so \
     vendor/ouya/ouya_1_1/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
+    vendor/ouya/ouya_1_1/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so \
     vendor/ouya/ouya_1_1/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
     vendor/ouya/ouya_1_1/proprietary/lib/hw/audio_policy.vendor.tegra.so:system/lib/hw/audio_policy.vendor.tegra.so \
     vendor/ouya/ouya_1_1/proprietary/lib/hw/audio.primary_vendor.tegra.so:system/lib/hw/audio.primary_vendor.tegra.so \
@@ -40,9 +41,10 @@ PRODUCT_COPY_FILES += \
     vendor/ouya/ouya_1_1/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
     vendor/ouya/ouya_1_1/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
     vendor/ouya/ouya_1_1/proprietary/lib/libnvavp.so:system/lib/libnvavp.so \
+    vendor/ouya/ouya_1_1/proprietary/lib/libnvcap_video.so:system/lib/libnvcap_video.so \
     vendor/ouya/ouya_1_1/proprietary/lib/libnvddk_2d.so:system/lib/libnvddk_2d.so \
     vendor/ouya/ouya_1_1/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
-    vendor/ouya/ouya_1_1/proprietary/lib/libnvdispmgr_d.so:system/lib/libnvdispmgr_d.so \
+    vendor/ouya/ouya_1_1/proprietary/lib/libnvglsi.so:system/lib/libnvglsi.so \
     vendor/ouya/ouya_1_1/proprietary/lib/libnvmm_audio.so:system/lib/libnvmm_audio.so \
     vendor/ouya/ouya_1_1/proprietary/lib/libnvmm_contentpipe.so:system/lib/libnvmm_contentpipe.so \
     vendor/ouya/ouya_1_1/proprietary/lib/libnvmm_image.so:system/lib/libnvmm_image.so \
@@ -61,6 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/ouya/ouya_1_1/proprietary/lib/libnvodm_imager.so:system/lib/libnvodm_imager.so \
     vendor/ouya/ouya_1_1/proprietary/lib/libnvodm_misc.so:system/lib/libnvodm_misc.so \
     vendor/ouya/ouya_1_1/proprietary/lib/libnvodm_query.so:system/lib/libnvodm_query.so \
+    vendor/ouya/ouya_1_1/proprietary/lib/libnvomxadaptor.so:system/lib/libnvomxadaptor.so \
     vendor/ouya/ouya_1_1/proprietary/lib/libnvomxilclient.so:system/lib/libnvomxilclient.so \
     vendor/ouya/ouya_1_1/proprietary/lib/libnvomx.so:system/lib/libnvomx.so \
     vendor/ouya/ouya_1_1/proprietary/lib/libnvos.so:system/lib/libnvos.so \
